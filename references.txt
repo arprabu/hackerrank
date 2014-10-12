@@ -1,0 +1,39 @@
+class Helloworld
+{
+public static void main(String args[])
+{
+System.out.println("Helloworld");
+}
+}
+
+
+
+
+
+
+if (n%3==0)
+{
+System.out.println("X");
+}
+else if(n%5 == 0)
+{
+System.out.println("y");
+}
+else if(n%3==0 && n%5==0)
+{
+System.out.println("Z")
+}
+else
+{
+
+System.out.println("not divsible");
+}
+
+
+
+
+1. Accept a string as an input
+2. Print all anagrams of it.
+e.g. input = abcd
+output = 
+abcd, abdc, acbd, acdb, adbc, adcb, bacd, badc, bcad, bcda, bdac, bdca, cabd, cadb, cbad, cbda, cdab, cdba, dabc, dacb, dbac, dbca, dcab, dcba
